@@ -250,10 +250,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero img{
-  width: 420px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   float: right;
-  border: 10px solid rgb(26, 25, 25);
   
 }
 
