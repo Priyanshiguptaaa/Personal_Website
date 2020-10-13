@@ -372,6 +372,88 @@ section {
 }
 
 /*--------------------------------------------------------------
+# EXPERIENCE
+--------------------------------------------------------------*/
+.exp-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 300;
+}
+
+.exp-item .left {
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.exp-item .left img {
+  transform: scale(0.5, 0.5);
+  transition: all 0.3s;
+}
+
+.exp-item:hover > .left > img {
+  transform: scale(0.6, 0.6);
+}
+
+.exp-item .right {
+  width: 75%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  border-left: 2px;
+  border-left-style: solid;
+}
+
+.exp-item:hover > .right > .point > .circle {
+  background:#141414;
+}
+
+.exp-item .point {
+  display: flex;
+  flex-direction: row;
+  margin-left: -8px;
+}
+
+.point span {
+  font-weight: 700;
+  font-size: 22px;
+
+  margin-top: -5px;
+  padding-left: 15px;
+}
+
+.exp-item .entry {
+  padding-left: 22px;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+
+.entry span {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.entry p {
+  font-size: 20px;
+  line-height: 1.5em;
+
+  width: 90%;
+}
+
+.circle {
+  border: 1px solid;
+  border-radius: 10px;
+  width: 15px;
+  height: 15px;
+  z-index: 2;
+  background: #fdfdfd;
+
+  transition: all 0.3s;
+}
+/*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
 .facts {
@@ -617,7 +699,7 @@ section {
 .services .description {
   margin-left: 80px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
