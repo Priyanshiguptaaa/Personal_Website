@@ -651,6 +651,9 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services .row{
+  border: darkblue;
+}
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -701,7 +704,16 @@ section {
   line-height: 24px;
   font-size: 18px;
 }
-
+.services .proceedings {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+.services .author {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
