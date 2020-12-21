@@ -26,7 +26,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <link href="assets/css/projects2.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
 </head>
 
 <body>
@@ -37,7 +38,6 @@
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="d-flex flex-column">
-
       <div class="profile">
         <img src="assets/img/logo.png" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Priyanshi Gupta</a></h1>
@@ -45,22 +45,27 @@
           <a href="https://github.com/Priyanshiguptaaa/" class="GitHub"><i class="bx bxl-github"></i></a>
           <a href="https://twitter.com/Priyanshi1709" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="https://www.linkedin.com/in/priyanshi-gupta-9237b9188/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.instagram.com/millenialwithavision/" class="instagram"><i class="bx bxl-instagram"></i></a>
         </div>
       </div>
-      
+      <br>
+      <!--
+      <div class="d-flex align-items-center">
+        <a class="primary_btn tr-bg" target="_blank"
+            href="https://drive.google.com/file/d/19vU7R3EIoESJGlP6zvsw0mZhKqrYr-iK/view?usp=sharing">
+            <span>Resume</span>
+        </a>
+      </div>-->
       <nav class="nav-menu">
         <ul>
-          <li><a href="https://drive.google.com/file/d/1cH5mkDVaeH_1qd5pa660-gFn0tYkchW9/view?usp=sharing"><i class="bx bx-smile"></i> <span>View Resume</span></a></li>
           <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span>Bio</span></a></li>
-          <li><a href="#passion"><i class="bx bx-bullseye"></i> <span>Passion</span></a></li>
-          <li><a href="#services"><i class="bx bx-spreadsheet"></i> Publications</a></li>
           <li><a href="#exp"><i class="bx bx-shape-polygon"></i> <span>Experience</span></a></li>
           <!--<li><a href="#skills"><i class="bx bx-shape-polygon"></i> <span>Skills</span></a></li>-->
-          <li><a href="#portfolio"><i class="bx bx-book-content"></i> Projects</a></li>
+          <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
+          <!--<li><a href="#services"><i class="bx bx-spreadsheet"></i> Publications</a></li>-->
           <!--<li><a href="#testimonials"><i class="bx bx-certification"></i> Certifications</a></li>-->
-          <li><a href="#achievements"><i class="bx bx-medal"></i> <span>Achievements</span></a></li>
-          <li><a href="#volunteer"><i class="bx bx-heart-circle"></i> <span>Volunteering</span></a></li>
+          <!--<li><a href="#life"><i class="bx bx-medal"></i> <span>Life & Me</span></a></li>-->
           <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
 
         </ul>
@@ -76,7 +81,7 @@
     <div class="col-lg-4" data-aos="fade-left">
       <div class="hero-container" data-aos="fade-in" style="padding-left: 60px ;" >
         <h1>Priyanshi Gupta</h1>
-        <p><span class="typed" data-typed-items="A Millennial with a Vision"></span></p>
+        <p><span class="typed" data-typed-items="A Millennial with a Vision, Aspiring Software Developer"></span></p>
         <br>
       </div>
       <br>
@@ -88,11 +93,25 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
+    <section id="projects" style="background-color:#040b14;">
+      <div class="conatiner">
+        <div class="row justify-content-center ">
+            <div class="col-lg-8 text-center ">
+                <div class="main_title text-white">
+                    <h2 class="text-white animated fadeIn">About Me</h2>
+                    <p data-aos="flip-right" data-aos-anchor-placement="bottom-bottom">
+                        Passionate to turn Ideas into Websites and Apps
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    
     <section id="about" class="about">
       <div class="container">
-
         <div class="section-title">
-          <h2>Biography</h2>
+          <h2>Let Me Introduce Myself</h2>
           <p>I am a 3rd year Computer Science Undergraduate Student. Two qualities that embody me are <b>hard work</b> and being <b>detail-oriented</b>. 
             My drive and fire is ignited by my <b>passion to create and develop</b> and one thing I can vouch for is my <b>work ethic.</b>
             Also my mind kind of works on the principle that <b>"Interpretation is Power and Vision is Success"</b> 
@@ -125,13 +144,6 @@
               <br>
               In 2019, I got my summer training at <b>University of Warwick, UK </b> where I learnt about the Statistics behind Data Science and Machine Learning in R
               under <b>Dr. Florin Ciucu</b> (Associate Professor, Univeristy of Warwick).
-              <br>
-            <h4>Research Interests:</h4>
-	    <i class="icofont-rounded-right"></i> <strong>Artificial Intelligence in Finance</strong> </li>
-            <br>
-            <i class="icofont-rounded-right"></i> <strong>Natural Language Processing</strong> </li>
-            <br>
-            <i class="icofont-rounded-right"></i> <strong>Federated Learning</strong></li>
             </p>
           </div>
         </div>
@@ -139,77 +151,31 @@
       </div>
     </section><!-- End About Section -->
 
-
-  <!-- ======= About Section ======= -->
-  <section id="passion" class="passion">
-    <div class="container">
-      <div class="section-title">
-        <h2>Passion</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <p>
-            Still surviving this pandemic, a new energy has chanelled me to explore more possibilities and most importantly,
-            get a real perspective of myself, being isolated with a mirror. I'm filled with aspirations to learn and build unique architectures and 
-            I aim to develop applications with an interesting user-experience and 
-            models that are safe for the people who contribute to the data system. 
-            <br>
-            <br>
-            <b>Artificial Intelligence</b> has been the most facinating discovery according to me. I view it as <b>the new normal.</b>
-            I am passionate about working to enhance my skills and read about the latest technologies being invented.
-            <br>
-            <br>
-            I have also contributed in my team's win at <b>E-Yantra Nationals</b> and several <b>Case Study Challenges</b>.
-          </p>
-        </div>
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="images/profile.jpeg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-    </div>
-  </section><!-- End About Section -->
-
-
-<!-- ======= Publications Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <div class="col-12 col-lg-4">
-            <h2>Publications</h2>
-          </div>
-          <!--<div class="col-12 col-lg-8">
-            <div class="alert alert-note">
-              ::before
-              Quickly discover content by <a href=" ">filtering publicaions</a>
+    <section id="projects" style="background-color: #040b14;">
+      <div class="conatiner">
+        <div class="row justify-content-center ">
+            <div class="col-lg-8 text-center ">
+                <div class="main_title text-white">
+                    <h2 class="text-white animated fadeIn">Experience</h2>
+                    <p data-aos="flip-right" data-aos-anchor-placement="bottom-bottom">
+                        Learning and Growing!
+                    </p>
+                </div>
             </div>
-          </div>-->
         </div>
-        
-        <div class="row">
-          <div class="icon"><i class="icofont-paper"></i>
-          </div>
-          <h4 class="title"><a href="https://drive.google.com/file/d/17JGGLSJTcxcnRFoqnTGVfesdPv3g4IjZ/view?usp=sharing">An Emperical and Comprehensive Research of Stock Market Prediction using Machine Learning and Deep Learning Techniques</a></h4>
-          <h4 class="description">ACCEPTED at 1st INTERNATIONAL CONFERENCE ON COMPUTATIONAL RESEARCH AND DATA ANALYTICS, ICCRDA-2020</h4>
-          <h5 class="proceedings">SCOPUS | 2020</h5>
-          <h5 class="author"> Aryendra Singh, Priyanshi Gupta</h5>
-        </div>
-
-      </div> 
-    </section><!-- End Services Section -->
+    </div>
+    </section>
 
 
     <!-- EXPERIENCE SECTION-->
 
     <section id="exp" class="exp">
       <div class="container">
-
+      <!--
         <div class="section-title">
           <h2>Experience</h2>
         </div>
-
+      -->
 			<div class="exp-item">
 				<div class="exp-item left">
 					<img src="assets/img/exp/grroom.png" style="height: 180px"/>
@@ -230,7 +196,7 @@
 					</div>
 				</div>
       </div>
-      
+      <!--
       <div class="exp-item">
 				<div class="exp-item left">
 					<img src="assets/img/exp/codingninja.svg" style="height: 180px"/>
@@ -238,7 +204,7 @@
 				<div class="exp-item right">
 					<div class="point">
 						<div class="circle"></div>
-						<span>Summer Trainee</span>
+						<span>Joint Secretary</span>
 					</div>
 					<div class="entry">
 						<span><b>Coding Ninjas India, Delhi (Remote) </b>: June'2020- July'2020</span>
@@ -248,7 +214,7 @@
 						</p>
 					</div>
 				</div>
-      </div>
+      </div>-->
       
       <div class="exp-item">
 				<div class="exp-item left">
@@ -272,202 +238,87 @@
 
     </div>
 
-
-
-    <!-- ======= Facts Section ======= 
-    <section id="facts" class="facts">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Facts</h2>
+    <!-- ======= Skills Section ======= -->
+    <section id="projects" style="background-color: #040b14;">
+      <div class="conatiner">
+        <div class="row justify-content-center ">
+            <div class="col-lg-8 text-center ">
+                <div class="main_title text-white">
+                    <h2 class="text-white animated fadeIn">Skills & What I can do for You</h2>
+                    <p data-aos="flip-right" data-aos-anchor-placement="bottom-bottom">
+                        
+                    </p>
+                </div>
+            </div>
         </div>
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="count-box">
-              <i class="icofont-papers"></i>
-              <span data-toggle="counter-up">0</span>
-              <p><strong>Publications</strong> </p>
+    </div>
+    </section>
+    <section id="skills" class="animated fadeIn ">
+        <div class="container ">
+            <div class="row justify-content-center ">
+                <!--<div class="col-lg-8 text-center ">
+                    <div class="main_title ">
+                        <h2>Skills</h2>
+                        <p data-aos="flip-right" data-aos-anchor-placement="bottom-bottom">A gap in skills and abilities
+                            reveal a golden opportunity </p>
+                    </div>
+                </div>-->
             </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="count-box">
-              <i class="icofont-document-folder"></i>
-              <span data-toggle="counter-up">14</span>
-              <p><strong>Projects</strong></p>
+            <div class="row feature_inner">
+                <div class="col-lg-3 col-md-6" data-aos="flip-right" data-aos-anchor-placement="top-center">
+                    <div class="feature_item">
+                        <img src="images/icon_shape1.png" alt="full stack developer">
+                        <h4>Data Structures & Algorithms</h4>
+                        <p> Have the knowlege of basic DSA and working on improving my problem solving skills on competitive platforms</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-anchor-placement="bottom-bottom">
+                    <div class="feature_item">
+                        <img src="images/icon_shape2.png" alt="deveops">
+                        <h4> Python Full Stack Developer</h4>
+                        <p> Experienced using Python and HTML, CSS/SCSS, basic JavaScript. Working on the deployment using Flask API and Django</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="flip-right" data-aos-anchor-placement="bottom-bottom">
+                    <div class="feature_item">
+                        <img src="images/icon_shape3.png" alt="Machine Learning">
+                        <h4>Machine Learning & AI</h4>
+                        <p>Working knowledge and experience of Machine Learning Algorithms, Probability, Statistics and publications in this field using Python. ALso have knowledge using R </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-anchor-placement="top-center">
+                    <div class="feature_item">
+                        <img src="images/icon_shape4.png" alt="App Dev ">
+                        <h4>Mobile App Developer</h4>
+                        <p> Equipped with Android Studio with Java and working on a project to improve my skills
+                        </p>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="count-box">
-              <i class="icofont-medal"></i>
-              <span data-toggle="counter-up">10</span>
-              <p><strong>Achievements</strong></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
-              <i class="icofont-users-alt-5"></i>
-              <span data-toggle="counter-up">1</span>
-              <p><strong>References</strong></p>
-            </div>
-          </div>
-
         </div>
+    </section>
 
+
+        
+    <!-- ======= Projects Section ======= -->
+    
+    <section id="projects" style="background-color: #040b14;">
+      <div class="conatiner">
+        <div class="row justify-content-center ">
+            <div class="col-lg-8 text-center ">
+                <div class="main_title text-white">
+                    <h2 class="text-white animated fadeIn">Projects</h2>
+                    <p data-aos="flip-right" data-aos-anchor-placement="bottom-bottom">
+                        Transforming knowledge to skills to talent with perfection on top.
+                    </p>
+                </div>
+            </div>
+        </div>
       </div>
     </section>
-    End Facts Section -->
 
-    <!-- ======= Skills Section ======= 
-    <section id="skills" class="skills section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Technical Skills</h2>
-          <p>My major work fields and skillset I acquired in the past 2 years</p>
-        </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">Kotlin<i class="val">10%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Java<i class="val">65%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Bootstrap<i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-
-            <div class="progress">
-              <span class="skill">HTML <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">CSS <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-
-            <div class="progress">
-              <span class="skill">MERN Stack<i class="val">10%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            
-            <div class="progress">
-              <span class="skill">Rest API<i class="val">10%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div> -->
-          <!-- Next Column 
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">C/C++<i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Machine Learning & AI <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Python <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Tensorflow<i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">R<i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Git<i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            
-            <div class="progress">
-              <span class="skill">Web Scraping<i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">GNU Octave/MATLAB<i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section> --><!-- End Skills Section -->
-
-    <!-- ======= Projects Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
       <div class="container">
-
-        <div class="section-title">
-          <h2>Academic Projects</h2>
-        </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
@@ -476,6 +327,7 @@
               <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-ml">ML</li>
               <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-research">Research</li>
             </ul>
           </div>
         </div>
@@ -545,14 +397,171 @@
               <p style=text-align:center> In Progress</p>
             </div>
           </div>
-
-          
-
-         
         </div>
-
       </div>
     </section>
+
+    <!-- ======= Publications Section ======= -->
+    <section id="services" class="services">
+      <div class="container portfolio-item filter-research">
+
+        <div class="section-title">
+          <div class="col-12 col-lg-4">
+            <h2>Publications</h2>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="icon"><i class="icofont-paper"></i>
+          </div>
+          <h4 class="title"><a href="https://drive.google.com/file/d/17JGGLSJTcxcnRFoqnTGVfesdPv3g4IjZ/view?usp=sharing">An Emperical and Comprehensive Research of Stock Market Prediction using Machine Learning and Deep Learning Techniques</a></h4>
+          <h4 class="description">PRESENTED at 1st INTERNATIONAL CONFERENCE ON COMPUTATIONAL RESEARCH AND DATA ANALYTICS, ICCRDA-2020</h4>
+          <h5 class="proceedings">SCOPUS | 2020</h5>
+          <h5 class="author"> Aryendra Singh, Priyanshi Gupta</h5>
+        </div>
+
+      </div> 
+    </section><!-- End Services Section -->
+
+    <!--
+
+    <section id="projects" style="background-color: #040b14;">
+      <div class="conatiner">
+        <div class="row justify-content-center ">
+            <div class="col-lg-8 text-center ">
+                <div class="main_title text-white">
+                    <h2 class="text-white animated fadeIn">Life & ME</h2>
+                    <p data-aos="flip-right" data-aos-anchor-placement="bottom-bottom">
+                        Transforming knowledge to skills to talent with perfection on top.
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    Life and ME section
+
+    <section id="life" class="portfolio_area animated fadeIn ">
+      <div class="container ">
+          <div class="row ">
+              <div class="col-lg-12" data-aos="fade-in-down">
+                  <div class="main_title text-left ">
+                      <h2>Life and Me</h2>
+                      <p class="lead ">
+                          An overview of extra-curricular activities. It's only after you've stepped outside your
+                          comfort zone that you begin to change, grow, and transform
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="filters-content ">
+              <div class="row portfolio-grid justify-content-center ">
+                  <div class="col-lg-4 col-md-6 all latest ">
+                      <div class="portfolio_box" data-aos="fade-in-down">
+                          <div class="single_portfolio ">
+                              <img class="img-fluid w-100 image-style " src="/img/life/p1-min.jpg" alt="image from ">
+                          </div>
+                          <div class="short_info ">
+                              <h4><a>Love Travelling <i class="fa pl-2 fa-heart text-danger "></i></a></h4>
+                              <p>Peace begins with a smile</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 all upcoming following ">
+                      <div class="portfolio_box" data-aos="fade-in-down">
+                          <div class="single_portfolio ">
+                              <img class="img-fluid w-100 image-style " src="/img/life/p7-min.jpeg" alt="image from ">
+                          </div>
+                          <div class="short_info ">
+                              <h4><a>my Game my Life <i class="fa fa-pagelines text-warning pl-2 "></i></a></h4>
+                              <p>Winner of Undgosh'17 & 18, Triquetra'18 & 19 and Aahvaan'18 & 19 Sports fest at
+                                  inter-university level.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 all following ">
+                      <div class="portfolio_box" data-aos="fade-in-down">
+                          <div class="single_portfolio ">
+                              <img class="img-fluid w-100 image-style " src="/img/life/p6-min.jpg" alt="image from ">
+                          </div>
+                          <div class="short_info ">
+                              <h4><a>Glimpse of Glory <i class="fa pl-2 fa-globe text-success "></i></a></h4>
+                              <p>Form is temporary but class is forever</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 all upcoming ">
+                      <div class="portfolio_box" data-aos="fade-in-top">
+                          <div class="single_portfolio ">
+                              <img class="img-fluid w-100 image-style " src="/img/life/p5-min.jpeg" alt="image from ">
+                          </div>
+                          <div class="short_info ">
+                              <h4><a>Leadership <i class="fa pl-2 fa-shield text-muted "></i></a></h4>
+                              <p>Don't find the fault, find the remedy</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 all popular ">
+                      <div class="portfolio_box" data-aos="fade-in-top">
+                          <div class="single_portfolio ">
+                              <img class="img-fluid w-100 image-style " src="/img/life/p4-min.jpg" alt="image from ">
+                          </div>
+                          <div class="short_info ">
+                              <h4><a>Model United Nations <i class="fa pl-2 fa-moon-o text-success "></i></a></h4>
+                              <p>Embedding skills that lasts forever</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 all following ">
+                      <div class="portfolio_box" data-aos="fade-in-down">
+                          <div class="single_portfolio ">
+                              <img class="img-fluid w-100 image-style " src="/img/life/p8-min.jpg" alt="image from ">
+                          </div>
+                          <div class="short_info ">
+                              <h4>IIT Guwahati and me <i class="fa pl-2 fa-btc text-primary "></i></h4>
+                              <p>Served as Executive board member</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 all upcoming ">
+                      <div class="portfolio_box" data-aos="fade-in-top">
+                          <div class="single_portfolio ">
+                              <img class="img-fluid w-100 image-style " src="/img/life/p9-min.jpg" alt="image from ">
+                          </div>
+                          <div class="short_info ">
+                              <h4><a>Smile is skill <i class="fa pl-2 fa-sun-o "></i></a></h4>
+                              <p>Invited as Executive Board member at IIT Delhi</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 all latest ">
+                      <div class="portfolio_box" data-aos="fade-in-down">
+                          <div class="single_portfolio ">
+                              <img class="img-fluid w-100 image-style " src="/img/life/p3-min.jpg" alt="image from ">
+                          </div>
+                          <div class="short_info ">
+                              <h4><a>IIT BHU Diaries <i class="fa pl-2 fa-bullseye text-danger "></i></a></h4>
+                              <p>Invited speaker for TECHNEX'20</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 all popular ">
+                      <div class="portfolio_box" data-aos="fade-in-top">
+                          <div class="single_portfolio ">
+                              <img class="img-fluid w-100 image-style " src="img/life/p2-min.jpg" alt="image from ">
+                          </div>
+                          <div class="short_info ">
+                              <h4><a>Rotract MUN <i class="fa pl-2 fa-umbrella text-primary "></i></a></h4>
+                              <p>Turning wounds into wisdom.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section> -->
+
+
     
     <!-- End Portfolio Section -->
 
@@ -609,147 +618,30 @@
     <!-- End Testimonials Section -->
 
 
-
-    <!-- ======= Achievements Section ======= -->
-    <section id="achievements" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Timeline of Achievements </h2>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-college">Grad College</li>
-              <li data-filter=".filter-school">School</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-college">
-            <div class="box">
-              <img src="assets/img/achievements/eyantra/eyantra.jpeg" class="img-fluid" alt="">
-              <p style=text-align:center><strong>Rank-5 <br> E-Yantra Nationals 18-19, IIT Bombay</strong></p>
-            </div>
-
-            <br>
-
-            <div class="box">
-              <img src="assets/img/achievements/sports/basketball.jpg" class="img-fluid" alt="">
-              <p style=text-align:center><strong>Silver Medalist<br>Inter-IP Basketball</strong></p>
-            </div>
-
-            <br>
-            
-            <div class="box">
-              <img src="assets/img/achievements/sports/tenni.jpg" class="img-fluid" alt="">
-              <p style=text-align:center><strong>Gold Medalist <br>Inter-IP Lawn Tennis </strong></p>
-            </div>
-
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-college">
-
-            <div class="box">
-              <img src="assets/img/achievements/iitr/iitr.png" class="img-fluid" alt="">
-              <p style=text-align:center><strong>Runners Up Case Study<br> E-Summit IIT Roorkee</strong></p>
-            </div>
-
-            <br>
-
-            <div class="box">
-              <img src="assets/img/achievements/pitch/pitch.jpeg" class="img-fluid" alt="">
-              <p style=text-align:center><strong>Winner <br>Pitch-O-Mania, ARSD (DU)</strong></p>
-            </div>
-
-            <br>
-
-            <div class="box">
-              <img src="assets/img/achievements/sports/football.jpeg" class="img-fluid" alt="">
-              <p style=text-align:center><strong>Gold Medalist <br>Inter IP Football</strong></p>
-            </div>
-            
-            
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-school">
-            <div class="box">
-              <img src="assets/img/achievements/diploma/diploma2.jpeg" class="img-fluid" alt="">
-              <p style=text-align:center><strong>Senior Diploma <br> Painting and Fine Arts</strong></p>
-            </div>
-
-            <br>
-
-            <div class="box">
-              <img src="assets/img/achievements/barin/braino.jpeg" class="img-fluid" alt="">
-              <p style=text-align:center><strong>Champions Trophy<br> Brain-O-Brain Nationals</strong></p>
-            </div>
-
-            <br>
-
-            <div class="box">
-              <img src="assets/img/achievements/sports/swim.jpeg" class="img-fluid" alt="">
-              <p style=text-align:center><strong>3rd Place U-14, 2nd Place U-16 <br> District Level Swimming</strong></p>
-            </div>
-            
-          </div>
-
-          
-        </div>      
-
-         
-        </div>      
-      </div>
-    </section><!-- End Achievements Section -->
-
-    <!-- ======= Volunteering Section ======= -->
-    <section id="volunteer" class="volunteer">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Volunteering</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <p>
-              
-              <br>
-              I was the organiser for <b>Vivel Josh Talks</b> event held in my college.
-              Also during my college life, I got attracted to work for <b>ENACTUS BVCOE</b>,
-              a non profit organisation aiming to tackle the <b>17 sustainable development goals</b> given by the <b>United Nations</b> where I experienced social 
-              entrepreneurship and it's workflows.<br>
-              I'm currently the <b>Joint Secretary</b> (Previosly <b> Creativity & Innovation Head</b> )of this organisation where my role is to manage about 100 people with my fellow core team to build projects using business principles 
-              in <b>creating an impact </b>for a better India. Our previous projects were: 
-              <br>
-              1. Aaranyani which focused on helping landless farmers to adapt to an alternative method 
-              of farming, <b>hydroponics</b>. 
-              <br>
-              2. Aarogya focused on uplifting women by making them entrepreneurs in their communities. We supplied them with 
-              sanitary napkins and spread awareness about the importance of <b>menstrual hygiene</b>. 
-              
-            </p>
-          </div>
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="images/community.jpeg" class="img-fluid" alt="">
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Passion Section -->
-
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
 
+    <section id="projects" style="background-color: #040b14;">
+      <div class="conatiner">
+        <div class="row justify-content-center ">
+            <div class="col-lg-8 text-center ">
+                <div class="main_title text-white">
+                    <h2 class="text-white animated fadeIn">Get in Touch</h2>
+                    <p data-aos="flip-right" data-aos-anchor-placement="bottom-bottom">
+                        Let's solve problems with tech!
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+     
+      <div class="container">
+        <!--
         <div class="section-title">
           <h2>Contact</h2>
           <p></p>
-        </div>
+        </div>-->
 
         <div class="row" data-aos="fade-in">
 
@@ -772,10 +664,7 @@
                 <h4>Call:</h4>
                 <p>+91 9315243601</p>
               </div>
-
-            
             </div>
-
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
@@ -835,6 +724,15 @@
   </footer><!-- End  Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+      $('.carousel').carousel();
+      AOS.init({
+          duration: 1000,
+          easing: 'ease-in-out',
+      });
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>

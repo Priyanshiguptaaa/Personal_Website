@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background-image:radial-gradient( rgb(156, 104, 199) , rgb(55, 18, 124));
+  background: url('/images/img3.jpg');
   background-size: cover;
 }
 
@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color:black;
+  color:whitesmoke;
 }
 
 #hero p {
@@ -254,6 +254,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 220px;
   float: right;
   
+  
 }
 
 @media (min-width: 1024px) {
@@ -274,35 +275,68 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 100px ;
   }
 }
-.button {
-  transition: 0.3s;
-  background:#141414;
-  color: #fdfdfd;
-  border: 1px solid#141414;
-  border-radius: 5px;
 
-  text-decoration: none;
 
-  padding: 12px;
+.primary_btn {
 
-  font-weight: 300;
-  font-size: 18px;
-
-  margin-top: 21px;
-  margin-bottom: 60px; 
+  background: #040b14;
+  display: inline-block;
+  letter-spacing: 0px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 35px;
+  outline: none !important;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: linear-gradient(to right, #090b1a 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+  border: double 2px transparent;
+  box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
 }
 
-.button:hover {
-  transition: 0.3s;
-  background: #fdfdfd;
-  color:#141414;
+.primary_btn span {
+  padding: 0 40px;
+}
+
+.primary_btn.tr-bg {
+  background-image: linear-gradient(#854fee,#854fee), radial-gradient(circle at top left, #4458dc, #854fee);
+  border: 2px solid transparent;
+  color: #222222;
+  box-shadow: none;
+}
+
+.primary_btn.tr-bg:hover {
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+  border: double 2px transparent;
+  color: #ffffff;
+  box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+}
+
+.primary_btn:hover {
+  background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
+  border: 2px solid #854fee;
+  color: #222222;
+  box-shadow: none;
+  background-clip: border-box;
+}
+
+.overlay {
+  position: center;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 
@@ -367,9 +401,18 @@ section {
 }
 
 .about image{
-  height: 100%;
-  width: 100%;
+  border-radius: 10%;
+  width: 125px;
+  height: 125px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #9AA9FA;
+  box-shadow: 4px 6px 11px -5px #888888;
+
 }
+
+
 
 /*--------------------------------------------------------------
 # EXPERIENCE
@@ -537,6 +580,75 @@ section {
   transition: .9s;
   background-color: #149ddd;
 }
+
+
+/* Start Barand Area css
+============================================================================================ */
+
+.brand_area {
+  padding-bottom: 170px;
+}
+
+@media (max-width: 1199px) {
+  .brand_area {
+      padding-bottom: 80px;
+  }
+}
+
+
+/* End Barand Area css
+============================================================================================ */
+
+
+/* Start Features Area css
+============================================================================================ */
+
+.features_area {
+  padding-bottom: 170px;
+}
+
+@media (max-width: 1199px) {
+  .features_area {
+      padding-bottom: 50px;
+  }
+}
+
+.feature_item {
+  padding: 45px 25px;
+  text-align: center;
+  background: #f9f9fd;
+  cursor: pointer;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.feature_item img {
+  margin-bottom: 35px;
+}
+
+.feature_item h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.feature_item p {
+  margin-bottom: 0px;
+}
+
+.feature_item:hover {
+  border-radius: 18px;
+  box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+  background: #fff;
+}
+
+
+/* End Features Area css
+============================================================================================ */
+
 
 
 /*--------------------------------------------------------------
